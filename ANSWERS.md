@@ -64,7 +64,7 @@
 4. **If you used AI, please include all of your prompts and answer the following questions:**
 
    - **Prompt (summary)**  
-     “Here are the Nucleus Security engineering intern interview instructions, including the webhook code and the calculator exercise. Help me review the Python webhook implementation, design and implement a small calculator web app (backend plus frontend), and draft the follow-up answers I need to send back, including explanations of how I used AI.”
+     “Here are the Nucleus Security engineering intern interview instructions, including the webhook code and the calculator exercise. Help me review the Python webhook implementation, design and implement a small calculator web app (backend plus frontend).”
 
    - **What did the AI do well?**  
      It helped me systematically list security and correctness issues in the webhook code and gave me concise language for my comments. For the coding challenge, it provided a coherent project structure (Flask app, templates, static assets) and a safe expression evaluator using Python’s AST, plus a simple but clean frontend layout. It was also helpful in drafting the narrative follow-up answers in a structured way.
