@@ -1,6 +1,6 @@
 ## Code Review – Webhook (Python)
 
-### Code comments (to paste in your submission)
+### Code comments
 
 - **Signature verification correctness and security**
   - The implementation decodes the raw body as UTF‑8 and then re-encodes it before hashing. This can change the raw bytes or fail for non‑UTF‑8 payloads. For signatures, the hash should be computed over the exact raw bytes from the request.
